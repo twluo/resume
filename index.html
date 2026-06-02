@@ -4,11 +4,43 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tony Luo</title>
-    <script type="module" crossorigin src="/assets/index-Bp6I6_b1.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-B2wOraeJ.css">
+    <meta
+      name="description"
+      content="Tony Luo - Full Stack Software Engineer with 10+ years of experience building large-scale distributed systems at Amazon."
+    />
+    <meta name="author" content="Tony Luo" />
+    <meta
+      property="og:title"
+      content="Tony Luo - Full Stack Software Engineer"
+    />
+    <meta
+      property="og:description"
+      content="Full Stack Software Engineer specializing in distributed systems, AI/ML integration, and cloud architecture."
+    />
+    <meta property="og:type" content="website" />
+    <title>Tony Luo - Full Stack Software Engineer</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+        transition: background-color 0.3s;
+      }
+      html.dark body {
+        background-color: #111827;
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: #111827;
+        }
+        html:not(.dark) body {
+          background-color: #ffffff;
+        }
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
